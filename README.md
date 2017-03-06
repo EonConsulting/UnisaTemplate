@@ -81,7 +81,7 @@ Contribution are always **welcome and recommended**! Here is how:
 
 License
 -------
-This template is an open source project by [EON Consulting](https://eon.co.za) that is licensed under [MIT](http://opensource.org/licenses/MIT). EON Consulting
+This template is an open source project by [EON Consulting](http://www.eonconsulting.co.za/) that is licensed under [MIT](http://opensource.org/licenses/MIT). EON Consulting
 reserves the right to change the license of future releases.
 
 Todo List
