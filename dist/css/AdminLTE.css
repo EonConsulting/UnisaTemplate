@@ -23,7 +23,27 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
+
 }
+/*custom styles */
+.editProfile {
+  display:inline-block;
+  font:normal normal 20px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing:antialiased;
+   margin-right: 5px;
+  position: absolute;
+  left: 100px;
+  top:35px;
+  color: red;
+
+}
+.onhover{
+
+
+}
+
 /* Layout */
 .wrapper {
   height: 100%;
