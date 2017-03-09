@@ -435,10 +435,13 @@
         <div class="col-md-3">
           <!-- Profile Image -->
           <div class="box box-primary">
-            <div class="box-body box-profile">
-              <img class="profile-user-img img-responsive img-circle" src="../../dist/img/user4-128x128.jpg" alt="User profile picture">
+            <div class="box-body box-profile ">
+            <i class="fa fa-pencil margin-r-5" ></i> 
+              <img class="profile-user-img img-responsive img-circle" src="img/09-03-2017-1489055327Koala.jpg" alt="User profile picture">
+             
 
-              <h3 class="profile-username text-center">Nina Mcintire</h3>
+
+              <h3 class="profile-username text-center" >Nina Mcintire</h3>
 
               <p class="text-muted text-center">Economics Student</p>
 
@@ -716,40 +719,79 @@
               <!-- /.tab-pane -->
 
               <div class="tab-pane" id="settings">
-                <form class="form-horizontal">
+                <form class="form-horizontal" action="profileInsert.php" method="post" enctype="multipart/form-data">
                   <div class="form-group">
                     <label for="inputName" class="col-sm-2 control-label">Name</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputName" placeholder="Name">
+                      <input type="text" class="form-control" id="inputName" placeholder=" Name " name="firstname">
                     </div>
                   </div>
                   <div class="form-group">
                     <label for="inputEmail" class="col-sm-2 control-label">Email</label>
 
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                      <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
                     </div>
                   </div>
+
+
                   <div class="form-group">
-                    <label for="inputName" class="col-sm-2 control-label">Name</label>
+                    <label for="inputName" class="col-sm-2 control-label">School</label>
 
                     <div class="col-sm-10">
-                      <input type="text" class="form-control" id="inputName" placeholder="Name">
+                      <input type="text" class="form-control" id="inputSchool" placeholder="Economics Student" name="school">
                     </div>
                   </div>
+
                   <div class="form-group">
-                    <label for="inputExperience" class="col-sm-2 control-label">Experience</label>
+                    <label for="inputName" class="col-sm-2 control-label">Programme</label>
+
                     <div class="col-sm-10">
-                      <textarea class="form-control" id="inputExperience" placeholder="Experience"></textarea>
+                      <input type="text" class="form-control" id="inputProgramme" placeholder="Programme" name="programme">
                     </div>
                   </div>
+
                   <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Location</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputLocation" placeholder="Location" name="location">
+                    </div>
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label for="inputName" class="col-sm-2 control-label">Notes</label>
+
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputNotes" placeholder="Notes" name="notes">
+                    </div>
+                  </div>
+
+
+
+
+
+
+
+
+                  <div class="form-group">
+                    <label for="inputExperience" class="col-sm-2 control-label">Profile Pic </label>
+                    <div class="col-sm-10">
+                   <input type="file" name="profilepic" >
+                    </div>
+                  </div>
+
+
+
+
+<!--                   <div class="form-group">
                     <label for="inputSkills" class="col-sm-2 control-label">Skills</label>
 
                     <div class="col-sm-10">
                       <input type="text" class="form-control" id="inputSkills" placeholder="Skills">
                     </div>
-                  </div>
+                  </div> -->
                   <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
                       <div class="checkbox">
