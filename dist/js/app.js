@@ -325,11 +325,12 @@ function _init() {
       //Enable sidebar toggle
       $(document).on('click', toggleBtn, function (e) {
         e.preventDefault();
-
+        $(this).find('i').toggleClass('fa-arrow-left fa-arrow-right')
         //Enable sidebar push menu
         if ($(window).width() > (screenSizes.sm - 1)) {
           if ($("body").hasClass('sidebar-collapse')) {
             $("body").removeClass('sidebar-collapse').trigger('expanded.pushMenu');
+
           } else {
             $("body").addClass('sidebar-collapse').trigger('collapsed.pushMenu');
           }

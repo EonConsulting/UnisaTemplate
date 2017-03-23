@@ -461,6 +461,7 @@ a:focus {
 @media (min-width: 768px) {
   .sidebar-collapse .main-sidebar,
   .sidebar-collapse .left-side {
+
     -webkit-transform: translate(-230px, 0);
     -ms-transform: translate(-230px, 0);
     -o-transform: translate(-230px, 0);
@@ -4956,4 +4957,6 @@ table.text-center th {
   .table-responsive > .table tr td {
     white-space: normal !important;
   }
+
+
 }
